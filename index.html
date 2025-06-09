@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>עו"ד מנחם עסיס - משרד עורכי דין בבאר שבע</title>
+  <meta name="description" content="עו"ד מנחם עסיס - משרד עורכי דין בבאר שבע. ייצוג והופעה בבימ"ש, מקרקעין, נדל"ן, תביעות כספיות, דיני חוזים ומשפחה.">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Heebo', Arial, sans-serif; margin: 0; background: #f7f7f7; color: #222; }
+    header { background: #1a237e; color: #fff; padding: 2rem 0; text-align: center; }
+    nav { margin: 1rem 0; }
+    nav a { color: #1a237e; text-decoration: none; margin: 0 1rem; font-weight: 700; }
+    .container { max-width: 800px; margin: 2rem auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 2rem; }
+    h1, h2 { margin-top: 0; }
+    .contact { background: #e3eafc; padding: 1rem; border-radius: 6px; margin-top: 2rem; }
+    .contact strong { display: inline-block; width: 80px; }
+    form { display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem; }
+    input, textarea { padding: 0.5rem; border: 1px solid #b0bec5; border-radius: 4px; font-size: 1rem; }
+    button { background: #1a237e; color: #fff; border: none; padding: 0.75rem; border-radius: 4px; font-size: 1rem; cursor: pointer; }
+    button:hover { background: #3949ab; }
+    @media (max-width: 600px) { .container { padding: 1rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>עו"ד מנחם עסיס</h1>
+    <div>משרד עורכי דין - באר שבע</div>
+    <nav>
+      <a href="#about">אודות</a>
+      <a href="#practice">תחומי עיסוק</a>
+      <a href="#contact">צור קשר</a>
+    </nav>
+  </header>
+  <div class="container">
+    <section id="about">
+      <h2>אודות</h2>
+      <p>עו"ד מנחם עסיס הוא עורך דין מנוסה בבאר שבע, בעל ניסיון רב בייצוג לקוחות פרטיים ועסקיים. המשרד שם דגש על יחס אישי, מקצועיות, ושקיפות מלאה מול הלקוח.</p>
+    </section>
+    <section id="practice">
+      <h2>תחומי עיסוק</h2>
+      <ul>
+        <li>ייצוג והופעה בבתי משפט</li>
+        <li>מקרקעין ונדל"ן</li>
+        <li>דיני חוזים</li>
+        <li>דיני משפחה</li>
+        <li>תביעות כספיות</li>
+      </ul>
+    </section>
+    <section id="contact" class="contact">
+      <h2>צור קשר</h2>
+      <div><strong>טלפון:</strong> <a href="tel:0547575777">054-7575777</a></div>
+      <div><strong>כתובת:</strong> החלוץ 123, באר שבע</div>
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="text" name="name" placeholder="שם מלא" required>
+        <input type="email" name="email" placeholder="אימייל" required>
+        <textarea name="message" placeholder="הודעה" rows="4" required></textarea>
+        <button type="submit">שלח</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
